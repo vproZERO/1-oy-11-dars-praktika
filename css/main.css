@@ -1,0 +1,704 @@
+<style> @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fraunces:opsz@9..144&family=Mulish&family=Poppins&family=Roboto&family=Space+Grotesk&display=swap'); </style>
+
+
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol {
+    list-style: none;
+}
+.container{
+    max-width: 1280px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.head{
+    width: 1280px;
+    height: 600px;
+    display: flex;
+    position: relative;
+    background: rgba(36, 28, 21, 0.3);
+    border-radius: 0px;   
+}
+.nav-item{
+    display: flex;
+    margin-top: 30px;
+}
+.list1{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #241C15;    
+}
+.nav-list + .nav-list{
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #241C15;  
+}
+.head-img{
+    margin-top: 20px;
+    margin-left: 104px;
+}
+.head-box{
+    display: flex;
+}
+.head-tittle{
+    position: absolute;
+    top: 18px;
+    left: 897px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: right;
+    color: #241C15;   
+}
+.head-number{
+    position: absolute;
+    top: 37px;
+    left: 824px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #241C15;   
+}
+.headbox-img{
+    position: absolute;
+    left: 954px;
+    top: 29px;
+}
+.headbox-link{
+    position: absolute;
+    top: 28px;
+    left: 994px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #004E56;  
+}
+.headbox-in{
+    position: absolute;
+    top: 15px;
+    left: 1064px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #241C15;   
+}
+.sign-box{
+    position: absolute;
+    top: 17px;
+    left: 1154px;
+    width: 96px;
+    height: 43px;
+    background: #FFE01B;
+    box-shadow: 0px 0px 0px #241C15;
+    border-radius: 26px;   
+}
+.signbox-text{
+    position: absolute;
+    top: 11px;
+    left: 24px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #241C15;   
+}
+.turn-tittle{
+    position: absolute;
+    top: 152px;
+    right: 408px;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 42px;
+    letter-spacing: 1px;
+    color: #241C15;   
+}
+.turn-text{
+    position: absolute;
+    width: 744px;
+    top: 215px;
+    left: 268px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.32px;
+    color: #241C15;  
+}
+.turn-link-box{
+    position: absolute;
+    top: 418px;
+    left: 592px;
+    width: 96px;
+    height: 43px;
+    background: #FFE01B;
+    box-shadow: 0px 0px 0px #241C15;
+    border-radius: 26px;   
+}
+.turnlink-text{
+    position: absolute;
+    left: 24px;
+    top: 11px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #241C15;  
+}
+.four{
+    position: relative;
+}
+.convert-box{
+    position: absolute;
+    width: 320px;
+    height: 616px;
+}
+.convert{
+    position: absolute;
+    width: 320px;
+    height: 461px;
+    background-image: url(../img/IMAGE\ \(79\).png);
+}
+.convert-tittle{
+    position: absolute;
+    top: 15px;
+    left: 16px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #241C15
+}
+.convert-minibox{
+    position: absolute;
+    top: 461px;
+    width: 320px;
+    height: 155px;
+    background-color:  #D99536;;
+}
+.minibox-text{
+    position: absolute;
+    left: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #241C15;  
+}
+.minibox-link{
+    position: absolute;
+    top: 107px;
+    left: 40px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #241C15;   
+}
+.optimaze-box{
+    position: absolute;
+    left: 320px;
+    width: 320px;
+    height: 616px;
+}
+.optimaze{
+    position: absolute;
+}
+.optimaze-tittle{
+    position: absolute;
+    top: 17px;
+    left: 16px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #241C15;   
+}
+.optimaze-minibox{
+    position: absolute;
+    top: 461px;
+    width: 320px;
+    height: 155px;
+    background: #E7B75F;
+    border-radius: 0px;  
+}
+.minibox-text{
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #241C15;   
+}
+.link2{
+    position: absolute;
+    left: 40px;
+}
+.target{
+    position: absolute;
+    left: 640px;
+    width: 320px;
+    height: 616px;
+}
+.target-tittle{
+    position: absolute;
+    top: 15px;
+    left: 16px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #241C15;   
+}
+.target-minibox{
+    position: absolute;
+    width: 320px;
+    height: 155px;
+    top: 461px;
+    background: #FDF8EA;
+    border-radius: 0px;   
+}
+.sync-box{
+    position: absolute;
+    left: 960px;
+    width: 320px;
+    height: 616px;
+}
+.sync-tittle{
+    position: absolute;
+    top: 15px;
+    left: 16px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #241C15;  
+}
+.sync-minibox{
+    position: absolute;
+    top: 461px;
+    width: 320px;
+    height: 155px;
+
+}
+.ps-box{
+    position: relative;
+    top: 616px;
+    width: 1280px;
+    height: 352px;
+    background: #241C15;
+    border-radius: 0px; 
+}
+.ps-text{
+    position: absolute; 
+    width: 757px; 
+    top: 145px;
+    left: 261px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.32px;
+    color: #FFFFFF;   
+}
+.find-box{
+    position: relative;
+    top: 600px;
+}
+.find-tittle{
+    position: absolute;
+    top:77px ;
+    left: 501px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #241C15;  
+}
+.find-mail{
+    position: absolute;
+    left: 352px;
+    top: 158px;
+    width: 289px;
+    height: 38px;
+    background: #C5DBF2;
+    border: 1px solid #BCBAB8;
+    border-radius: 0px;  
+}
+.mail-text{
+    position: absolute;
+    left: 71px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #241C15;   
+}
+.find-bigbox{
+    position: absolute;
+    width: 1152px;
+    height: 576px;
+    top: 195px;
+    left: 64px;
+    border: 2px solid #BCBAB8;
+}
+.find-premium{
+    position: absolute;
+    width: 287px;
+    height: 576px;
+    border: 2px solid #BCBAB8;
+}
+.premium-tittle{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;   
+}
+.premium-text{
+    position: absolute;
+    left: 25px;
+    top: 60px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(36, 28, 21, 0.65);   
+}
+.premium-tittle-2{
+    position: absolute;
+    left: 25px;
+    top: 120px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(36, 28, 21, 0.65);   
+}
+.dollar{
+    position: absolute;
+    left: 25px;
+    top: 139px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #241C15;   
+}
+.number{
+    position: absolute;
+    left: 34px;
+    top: 102px;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #241C15;  
+}
+.silka{
+    position: absolute;
+    left: 25px;
+    top: 167px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(36, 28, 21, 0.65);   
+}
+.phone{
+    position: absolute;
+    left: 55px;
+    top: 208px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #241C15;   
+    text-decoration: underline;
+}
+.line{
+    display: block;
+    position: absolute;
+    left: 25px;
+    top: 246px;
+    width: 239px;
+    height: 2px;
+    background: #DBD9D2;
+}
+.all2{
+    position: absolute;
+    top: 265px;
+
+}
+.line2{
+    position: absolute;
+    top: 322px;
+
+}
+.all3{
+    position: absolute;
+    top: 339px;
+}
+.line3{
+    position: absolute;
+    top:377px ;
+}
+.all4{
+    position: absolute;
+    top: 396px;
+}
+.line4{
+    position: absolute;
+    top: 453px;
+}
+.all5{
+    position: absolute;
+    top: 470px;
+}
+.line5{
+    position: absolute;
+    top: 508px;
+}
+.all6{
+    position: absolute;
+    top: 525px;
+}
+.standart{
+    position: absolute;
+    left: 287px;
+}
+.Essentials{
+    position: absolute;
+    left: 574px;
+}
+.Free{
+    position: absolute;
+    left: 861px;
+}
+.allstandart{
+    position: absolute;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: rgba(36, 28, 21, 0.3);  
+}
+.find-end{
+    position: absolute;
+    left: 212px;
+    top: 787px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #241C15;   
+}
+.find-end-text{
+    position: absolute;
+    top: 785px;
+    left: 270px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(36, 28, 21, 0.65);
+}
+.find-endlink{
+    position: absolute;
+    top: 797px;
+    left: 1055px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(36, 28, 21, 0.65);   
+}
+.find-link{
+    position: absolute;
+    left: 558px;
+    top: 847px;
+    width: 165px;
+    height: 43px;
+    background: #FFE01B;
+    box-shadow: 0px 0px 0px #241C15;
+    border-radius: 26px;   
+}
+.find-linktext{
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: 24px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #241C15;  
+}
+.generate-box{
+    position: relative;
+    top: 1600px;
+}
+.generate-tittle{
+    position: absolute;
+    width: 552px;
+    top: 77px;
+    left: 364px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #241C15;   
+}
+.generate-leftbox{
+    position: absolute;
+    width: 544px;
+    height: 704px;
+    left: 72px;
+    top: 293px;
+    background:#EFEEEA;
+}
+.leftbox-tittle{
+    position: absolute;
+    top: 110px;
+    left: 39px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #241C15;   
+}
+.right{
+    position: absolute;
+    left: 290px;
+}
+.custom-box{
+    position: absolute;
+    width: 259px;
+    height: 58px;
+    top: 236px;
+    left: 142px;
+    background-color: #FFFFFF;
+}
+.custom-img{
+    position: absolute;
+    top: 17px;
+    left: 26px;
+}
+.custom-tittle{
+    position: absolute;
+    top: 5px;
+    left: 66px;
+    font-size: 18px;
+    font-weight: 400px;
+}
+.custom-line{
+    position: absolute;
+    left: 272px;
+    top: 293px;
+}
+.custom-vector{
+    position: absolute;
+    left: 270.2px;
+    top: 363px;
+}
+.wait-box{
+    width: 183px;
+    height: 54px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 179px;
+    top: 377px;
+}
+.wait-img{
+    position: absolute;
+    left: 26px;
+    top: 18px;
+}
+.wait-img-2{
+    position: absolute;
+    top: 1px;
+    left: 9px;
+}
+.wait-tittle{
+    position: absolute;
+    left: 60px;
+    top: 5px;
+    font-size: 18px;
+    font-weight: 400px;
+}
+.waitline{
+    position: absolute;
+    top: 55px;
+    left: 91px;
+}
+.waitvector{
+    position: absolute;
+    top: 125px;
+    left: 89px;
+}
+.generate-mouse{
+    position: absolute;
+    left: 422px;
+    top: 311px;
+}
+.send-box{
+    position: absolute;
+    top: 521px;
+    left: 124px;
+    width: 259px;
+    height: 58px;
+    background-color: #FFFFFF;
+}
+.send-tittle{
+    position: absolute;
+    font-size: 16px;
+    left: 65px;
+    top: 5px;
+}
+.general-tittle{
+    position:absolute ;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 36px;
+    color: #241C15;   
+    left: 721px;
+    top: 552px;
+}
+.general-text{
+    position: absolute;
+    left: 721px;
+    top: 598px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #241C15;  
+}
+.general-link{
+    position: absolute;
+    left: 721px;
+    top: 750px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #241C15;   
+}
+.discover-box{
+    position:relative ;
+    top: 3900px;
+    
+}
+.discover-custombox{
+    position: absolute;
+    top: 3700px;
+    left: 200px;
+    width: 544px;
+    height: 704px;
+    background-color:#EFEEEA; 
+}
